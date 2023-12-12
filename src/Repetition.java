@@ -193,16 +193,67 @@ public class Repetition {
 //        }
 //        System.out.println("You got it!");
 
-        for (int i = 0; i < 10000; i++) {
-            System.out.println("First line in the block: " + i);
+//        for (int i = 0; i < 10000; i++) {
+//            System.out.println("First line in the block: " + i);
+//
+//            // a 10% chance to break out of the loop
+//            if (Math.random() > 0.9) {
+//                System.out.println("breaking!");
+//                break; // exit the for's code block immediately
+//            }
+//
+//            System.out.println("Last line in the block: " + i);
+//        }
+//        Scanner console = new Scanner(System.in);
+//        String input;
+//        while (true) {
+//            System.out.println("Enter 1-5: ");
+//            input = console.next();
+//            if (input.length() == 1 && input.charAt(0) >= '1' && input.charAt(0) <= '5') {
+//                break;
+//            }
+//        }
+//        System.out.println("Value: " + input);
 
-            // a 10% chance to break out of the loop
-            if (Math.random() > 0.9) {
-                System.out.println("breaking!");
-                break; // exit the for's code block immediately
-            }
+//        Scanner console = new Scanner(System.in);
+//        String input = "";
+//        boolean isValid = false;
+//        while (!isValid) {
+//            System.out.println("Enter 1-5: ");
+//            input = console.next();
+//            if (input.length() == 1 && input.charAt(0) >= '1' && input.charAt(0) <= '5') {
+//                isValid = true;
+//            }
+//        }
+//        System.out.println("Value: " + input);
 
-            System.out.println("Last line in the block: " + i);
-        }
+//        // print all even numbers under 100
+//        int n = 0;
+//        while (n < 100) {
+//            if (n % 2 == 1) {
+//                n++;
+//                continue; // skip remaining code, but continue looping
+//            }
+//            System.out.println(n);
+//            n++;
+//        }
+//
+//        // print 30% of the numbers under 100, randomly
+//        for (n = 0; n < 100; n++) {
+//            if (Math.random() < 0.80) {
+//                continue; // skip remaining code, but continue looping
+//            }
+//            System.out.println("lucky number ");
+//            System.out.println(n);
+//        }
+
+//        for (int row = 0; row < 5; row++) {
+//            for (int column = 0; column < 5; column++) {
+//                if (column == 3) {
+//                    break; // the column loop stops entirely, but not the row loop
+//                }
+//                System.out.printf("row: %s, column: %s%n", row, column);
+//            }
+//        }
     }
 }
